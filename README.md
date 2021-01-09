@@ -1,19 +1,17 @@
-# Kanban Board App
+# Task Board
 
-![welcome-board](https://raw.githubusercontent.com/shellyln/kanban-board-app/master/public/images/icons/icon-96x96.png)  
+![welcome-board](https://raw.githubusercontent.com/goldenmonster/task-board/master/public/images/icons/icon-96x96.png)
 
 Kanban style task management board app
 
-[https://shellyln.github.io/knbn/#/](https://shellyln.github.io/knbn/#/)
-
-![welcome-board](https://raw.githubusercontent.com/shellyln/kanban-board-app/master/docs/images/welcome-board.png)
+![welcome-board](https://raw.githubusercontent.com/goldenmonster/task-board/master/docs/images/welcome-board.png)
 
 
-[![npm](https://img.shields.io/npm/v/kanban-board-app.svg)](https://www.npmjs.com/package/kanban-board-app)
-[![GitHub release](https://img.shields.io/github/release/shellyln/kanban-board-app.svg)](https://github.com/shellyln/kanban-board-app/releases)
-[![Travis](https://img.shields.io/travis/shellyln/kanban-board-app/master.svg)](https://travis-ci.org/shellyln/kanban-board-app)
-[![GitHub forks](https://img.shields.io/github/forks/shellyln/kanban-board-app.svg?style=social&label=Fork)](https://github.com/shellyln/kanban-board-app/fork)
-[![GitHub stars](https://img.shields.io/github/stars/shellyln/kanban-board-app.svg?style=social&label=Star)](https://github.com/shellyln/kanban-board-app)
+[![npm](https://img.shields.io/npm/v/task-board.svg)](https://www.npmjs.com/package/task-board)
+[![GitHub release](https://img.shields.io/github/release/goldenmonster/task-board.svg)](https://github.com/goldenmonster/task-board/releases)
+[![Travis](https://img.shields.io/travis/goldenmonster/task-board/master.svg)](https://travis-ci.org/goldenmonster/task-board)
+[![GitHub forks](https://img.shields.io/github/forks/goldenmonster/task-board.svg?style=social&label=Fork)](https://github.com/goldenmonster/task-board/fork)
+[![GitHub stars](https://img.shields.io/github/stars/goldenmonster/task-board.svg?style=social&label=Star)](https://github.com/goldenmonster/task-board)
 
 
 
@@ -46,22 +44,22 @@ Kanban style task management board app
 
 ### Kanban board view
 
-![welcome-board](https://raw.githubusercontent.com/shellyln/kanban-board-app/master/docs/images/welcome-board.png)
-![welcome-board](https://raw.githubusercontent.com/shellyln/kanban-board-app/master/docs/images/edit-dialog.png)
+![welcome-board](https://raw.githubusercontent.com/goldenmonster/task-board/master/docs/images/welcome-board.png)
+![welcome-board](https://raw.githubusercontent.com/goldenmonster/task-board/master/docs/images/edit-dialog.png)
 
 ### Calendar view
 
-![calendar](https://raw.githubusercontent.com/shellyln/kanban-board-app/master/docs/images/calendar.png)
+![calendar](https://raw.githubusercontent.com/goldenmonster/task-board/master/docs/images/calendar.png)
 
 ### Configuration editor view
 
-![calendar](https://raw.githubusercontent.com/shellyln/kanban-board-app/master/docs/images/setting.png)
+![calendar](https://raw.githubusercontent.com/goldenmonster/task-board/master/docs/images/setting.png)
 
 
 
 ## Board Gallery
 
-See [docs/gallery.md](https://github.com/shellyln/kanban-board-app/blob/master/docs/gallery.md) to get board templates.
+See [docs/gallery.md](https://github.com/goldenmonster/task-board/blob/master/docs/gallery.md) to get board templates.
 
 * Basic Kanban board
 * Empathy Map
@@ -73,19 +71,19 @@ See [docs/gallery.md](https://github.com/shellyln/kanban-board-app/blob/master/d
 
 ## Getting started
 
-1. Go [https://shellyln.github.io/knbn/#/](https://shellyln.github.io/knbn/#/)
+1. Go [https://goldenmonster.github.io/knbn/#/](https://goldenmonster.github.io/knbn/#/)
 1. Create  [IBM Cloud Lite account](https://www.ibm.com/cloud/free/) to get managed CouchDB server ([IBM Cloudant®](https://www.ibm.com/cloud/cloudant))
     * [Sign up for IBM Cloud](https://cloud.ibm.com/registration)
     * [Get Started With Cloudant in IBM Cloud](https://developer.ibm.com/clouddataservices/docs/cloudant/get-started/)
-1. Setup remote server configurations on [Settings view](https://shellyln.github.io/knbn/#/config/)
+1. Setup remote server configurations on [Settings view](https://goldenmonster.github.io/knbn/#/config/)
 
 
 
 ## Deploying to your site
 
 ```sh
-git clone https://github.com/shellyln/kanban-board-app.git
-cd kanban-board-app
+git clone https://github.com/goldenmonster/task-board.git
+cd task-board
 npm ci
 
 vi package.json
@@ -98,7 +96,7 @@ npm run build
 ```
 and deploy `./build/*` to your site.
 
-For more informations, see [README-scripts.md](https://github.com/shellyln/kanban-board-app/blob/master/README-scripts.md) and
+For more informations, see [README-scripts.md](https://github.com/goldenmonster/task-board/blob/master/README-scripts.md) and
 [Create React App deployment docs](https://create-react-app.dev/docs/deployment).
 
 
@@ -173,7 +171,7 @@ Kanban item IDs will be regenerated. You don't care.
 
 ### Export task schedules to Google Calendar
 
-See [kanban-board-calendar-exporter](https://github.com/shellyln/kanban-board-calendar-exporter).
+See [kanban-board-calendar-exporter](https://github.com/goldenmonster/kanban-board-calendar-exporter).
 
 
 
@@ -228,5 +226,5 @@ table.KanbanBoardView-board td.status-backlog.team-or-story-team-b {
 
 
 ## License
-[ISC](https://github.com/shellyln/kanban-board-app/blob/master/LICENSE.md)  
+[ISC](https://github.com/goldenmonster/task-board/blob/master/LICENSE.md)
 Copyright (c) 2019 Shellyl_N and Authors.
